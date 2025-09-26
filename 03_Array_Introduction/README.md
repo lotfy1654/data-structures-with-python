@@ -12,15 +12,15 @@ To access a specific element, we use the formula:
 
 ---
 
-## 📌 Explanation
+## Explanation
 
-- ✅ **Base Address** = the address of the first element (A[0])  
-- ✅ **i** = the index (position of the element)  
-- ✅ **Size** = the size of each element (e.g., 4 bytes for an `int`)  
+-  **Base Address** = the address of the first element (A[0])  
+-  **i** = the index (position of the element)  
+-  **Size** = the size of each element (e.g., 4 bytes for an `int`)  
 
 ---
 
-## 💡 Example in C
+##  Example in C
 
 ```c
 int arr[3] = {10, 20, 30};
