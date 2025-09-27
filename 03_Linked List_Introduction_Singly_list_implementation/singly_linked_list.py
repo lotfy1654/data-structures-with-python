@@ -6,6 +6,8 @@ class LinkedListNode:
         self.next = None
 
 # Define The Linked List Iterator
+
+
 class LinkedListIterator:
     def __init__(self, node):
         self.current_node = node
@@ -21,6 +23,8 @@ class LinkedListIterator:
         return self.current_node
 
 # Define the single linked list class
+
+
 class SinglyLinkedList:
     # Initialize the linked list
     def __init__(self):
@@ -88,8 +92,6 @@ class SinglyLinkedList:
     def delete_node(self, node):
         # Find the node to be deleted
         item_node = self.get_node(node)
-        # Find the parent of the node to be deleted
-        parent_node = self.get_parent_node(item_node)
         # If the node is not found, return
         if item_node is None:
             return
@@ -100,15 +102,14 @@ class SinglyLinkedList:
         # If the node to be deleted is the head node
         elif self.head == item_node:
             self.head = item_node.next
-        # If the node to be deleted is the tail node
-        elif parent_node is None:
-            self.head = item_node.next
         else:
+            # Find the parent of the node to be deleted
+            parent_node = self.get_parent_node(item_node)
             # If the node to be deleted is in between
             if self.tail == item_node:
                 self.tail = parent_node
-            else:
-                # Bypass the node to be deleted
+            if parent_node is not None:
+                # Link the parent node to the next of the node to be deleted
                 parent_node.next = item_node.next
         self.length -= 1
 
