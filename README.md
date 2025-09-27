@@ -20,8 +20,7 @@ This repository contains educational lessons on **fundamental data structures in
 - Infrastructure: nodes stored in **independent, non-consecutive memory locations** connected by pointers  
 - Singly Linked List basics with diagrams  
 - Implementation of core operations:  
-  - **insert_last** → insert new node at the end  
-  - **insert_after** → insert new node after a given node  
-  - **insert_before** → insert new node before a given node  
-  - **delete_node** → delete a specific node  
-
+  - `insert_last` → insert new node at the end  
+  - `insert_after` → insert new node after a given node  
+  - `insert_before` → insert new node before a given node  
+  - `delete_node` → delete a specific node  
