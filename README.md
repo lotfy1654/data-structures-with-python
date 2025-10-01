@@ -63,8 +63,6 @@ This repository contains educational lessons on **fundamental data structures in
 - Extra **memory overhead** (needs pointers in each node).  
 - Poorer cache locality compared to arrays.
 
----
-
 ### Quick Comparison
 
 | Feature              | Array             | Linked List        |
@@ -76,6 +74,5 @@ This repository contains educational lessons on **fundamental data structures in
 | Memory Overhead      | Low              | High (pointers)    |
 | Cache Performance    | Good             | Poor               |
 
----
   - **Use Arrays** when you need **fast access & cache efficiency**.  
   - **Use Linked Lists** when you need **frequent dynamic insertions/deletions**.
