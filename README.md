@@ -44,3 +44,38 @@ This repository contains educational lessons on **fundamental data structures in
 - `insert_before` → Insert before a given node  
 - `delete_node` → Remove a node from the list  
 - `copy` → Create an independent copy of the list  
+
+## 05_Linked_List_VS_Array
+
+### Arrays
+- Stored in **contiguous memory locations**.  
+- **Random access** is very fast → `O(1)`.  
+- **Insertion/Deletion** is costly → `O(n)` (needs shifting elements).  
+- **Fixed size** (needs resizing if full).  
+- **Memory efficient** (no extra storage for pointers).  
+- Better **cache locality** → faster iteration.
+
+### Linked Lists
+- Stored in **non-contiguous memory locations** (nodes linked with pointers).  
+- **Access by index** is slow → `O(n)` (must traverse from head).  
+- **Insertion/Deletion** is efficient (especially at beginning/middle).  
+- **Dynamic size** → grows/shrinks as needed.  
+- Extra **memory overhead** (needs pointers in each node).  
+- Poorer cache locality compared to arrays.
+
+---
+
+### Quick Comparison
+
+| Feature              | Array             | Linked List        |
+|----------------------|------------------|--------------------|
+| Memory Allocation    | Contiguous       | Non-contiguous     |
+| Access (by index)    | `O(1)`           | `O(n)`             |
+| Insertion/Deletion   | `O(n)`           | `O(1)` (if node known) |
+| Size                 | Fixed/Resizable  | Dynamic            |
+| Memory Overhead      | Low              | High (pointers)    |
+| Cache Performance    | Good             | Poor               |
+
+---
+  - **Use Arrays** when you need **fast access & cache efficiency**.  
+  - **Use Linked Lists** when you need **frequent dynamic insertions/deletions**.
