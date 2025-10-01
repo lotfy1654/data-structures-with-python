@@ -3,18 +3,19 @@
 This repository contains educational lessons on **fundamental data structures in Python**, focusing on concepts
 
 ## 01_Array_Introduction
+
 - Introduction to Arrays  
 - Types of Arrays (1D, 2D, 3D, Jagged)  
 - Memory management responsibility in C vs Python  
 
-
 ## 02_Array_Operations_Implementation
+
 - Implementation of a function to **resize arrays**  
-- Implementation of a function to **access elements by index**  `getAt` 
+- Implementation of a function to **access elements by index**  `getAt`
 - Understanding array operations at a low-level (manual implementation)  
 
-
 ## 03_Linked List_Introduction_Singly_list_implementation
+
 - What is a Linked List and how it differs from arrays  
 - Types of Linked Lists (Singly, Doubly, Circular)  
 - Infrastructure: nodes stored in **independent, non-consecutive memory locations** connected by pointers  
@@ -24,3 +25,22 @@ This repository contains educational lessons on **fundamental data structures in
   - `insert_after` → insert new node after a given node  
   - `insert_before` → insert new node before a given node  
   - `delete_node` → delete a specific node  
+
+## 04_Linked_List_Doubly_list_implementation
+
+- Introduction to **Doubly Linked List**:  
+  A linear data structure where each node stores:  
+  - Data  
+  - Pointer to the **next** node  
+  - Pointer to the **previous** node  
+
+- Supports **bidirectional traversal** (forward & backward).  
+- More flexible than singly linked lists because you can efficiently insert/delete from both ends or the middle.
+
+### Core Implementations
+
+- `insert_last` → Insert at the end  
+- `insert_after` → Insert after a given node  
+- `insert_before` → Insert before a given node  
+- `delete_node` → Remove a node from the list  
+- `copy` → Create an independent copy of the list  

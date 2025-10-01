@@ -111,6 +111,11 @@ class SinglyLinkedList:
             if parent_node is not None:
                 # Link the parent node to the next of the node to be deleted
                 parent_node.next = item_node.next
+        # Remove references to help with garbage collection
+        item_node.next = None
+        item_node.data = None
+        del item_node
+        # Decrease the length of the list
         self.length -= 1
 
     # Get node for specified data
