@@ -115,7 +115,7 @@ class SinglyLinkedList:
         item_node.next = None
         item_node.data = None
         del item_node
-        # Decrease the length of the list
+        # Decrease the length of the list by 1
         self.length -= 1
 
     # Get node for specified data
