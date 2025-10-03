@@ -48,6 +48,7 @@ This repository contains educational lessons on **fundamental data structures in
 ## 05_Linked_List_VS_Array
 
 ### Arrays
+
 - Stored in **contiguous memory locations**.  
 - **Random access** is very fast → `O(1)`.  
 - **Insertion/Deletion** is costly → `O(n)` (needs shifting elements).  
@@ -56,6 +57,7 @@ This repository contains educational lessons on **fundamental data structures in
 - Better **cache locality** → faster iteration.
 
 ### Linked Lists
+
 - Stored in **non-contiguous memory locations** (nodes linked with pointers).  
 - **Access by index** is slow → `O(n)` (must traverse from head).  
 - **Insertion/Deletion** is efficient (especially at beginning/middle).  
@@ -74,5 +76,32 @@ This repository contains educational lessons on **fundamental data structures in
 | Memory Overhead      | Low              | High (pointers)    |
 | Cache Performance    | Good             | Poor               |
 
-  - **Use Arrays** when you need **fast access & cache efficiency**.  
-  - **Use Linked Lists** when you need **frequent dynamic insertions/deletions**.
+- **Use Arrays** when you need **fast access & cache efficiency**.  
+- **Use Linked Lists** when you need **frequent dynamic insertions/deletions**.
+
+## 06_Stack_Introduction
+
+A **stack** is a linear data structure that follows **LIFO** (Last In, First Out).  
+The last element added (`pushed`) is the first one removed (`popped`).  
+
+Stacks can be implemented using:
+
+- **Arrays** (fixed size, may require resizing, supports fast access)
+- **Linked Lists** (dynamic size, flexible insertions/deletions)
+
+Core operations include:
+
+- `push(x)` → add element to the top  
+- `pop()` → remove and return top element  
+- `peek()` / `top()` → view top element without removing  
+- `isEmpty()` → check if stack is empty  
+- `isFull()` → check if stack is full (for arrays)  
+- `size()` → current number of elements
+
+## 07_Linked List-based Stack
+
+Implementation of a `stack using a linked list`
+
+## 08_Array-based Stack
+
+Implementation of a `stack using an array` (Python list)
