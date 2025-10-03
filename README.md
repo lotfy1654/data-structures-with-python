@@ -98,11 +98,11 @@ Core operations include:
 - `isFull()` → check if stack is full (for arrays)  
 - `size()` → current number of elements
 
-## 07_Linked List-based Stack
+## 07_Linked_List_based_Stack
 
 Implementation of a `stack using a linked list`
 
-## 08_Array-based Stack
+## 08_Array_based_Stack
 
 Implementation of a `stack using an array` (Python list)
 
