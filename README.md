@@ -105,3 +105,30 @@ Implementation of a `stack using a linked list`
 ## 08_Array-based Stack
 
 Implementation of a `stack using an array` (Python list)
+
+## 09_Queue_Introduction
+
+A **queue** is a linear data structure that follows **FIFO** (First In, First Out).  
+The first element added (`enqueued`) is the first one removed (`dequeued`).  
+
+Queues can be implemented using:
+
+- **Arrays** (fixed size, may require resizing, supports fast access)  
+- **Linked Lists** (dynamic size, flexible insertions/deletions)  
+
+Core operations include:
+
+- `enqueue(x)` → add element to the rear (end)  
+- `dequeue()` → remove and return element from the front (beginning)  
+- `peek()` / `front()` → view front element without removing  
+- `isEmpty()` → check if queue is empty  
+- `isFull()` → check if queue is full (for arrays)  
+- `size()` → current number of elements
+
+## 10_Linked_List_based_Queue
+
+Implementation of a `queue using a linked list`
+
+## 11_Array_based_Queue
+
+Implementation of a `queue using an array` (Python list)
