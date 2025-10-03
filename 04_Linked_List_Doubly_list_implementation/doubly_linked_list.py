@@ -122,7 +122,6 @@ class DoublyLinkedList:
         node_to_delete.next = None
         node_to_delete.back = None
         node_to_delete.data = None
-        del node_to_delete
         # Decrease the length of the list
         self.length -= 1
 
