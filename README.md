@@ -145,4 +145,4 @@ Implementation of a `queue using an array` (Python list)
 - **Hashing**: process of mapping data to a fixed-size value (hash code) for fast lookup.  
 - **Hash Function**: function that converts a key into a hash code (index in a hash table).  
 - **Hash Table / Map**: data structure that stores Key–Value Pairs using a hash function for fast operations.  
-- Implementation example: **FNV-1a hash function** for both 32-bit and 64-bit hashes.
+- Implementation example: **FNV-1a hash function** for both 32-bit and 64-bit hashes
