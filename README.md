@@ -132,3 +132,17 @@ Implementation of a `queue using a linked list`
 ## 11_Array_based_Queue
 
 Implementation of a `queue using an array` (Python list)
+
+## 12_KeyValuePair_Dictionary_Implementation
+
+- **Key–Value Pair**: a pair of `key` and `value`, where **key is unique** and maps to a value.  
+- **Dictionary / Map**: a collection of Key–Value Pairs.  
+- Usually implemented using **Hash Table** for fast access.  
+- Core operations: `set()`, `get()`, `delete()`, `resize()`, `size()`  
+
+## 13_Hashing_FNV1a_Implementation
+
+- **Hashing**: process of mapping data to a fixed-size value (hash code) for fast lookup.  
+- **Hash Function**: function that converts a key into a hash code (index in a hash table).  
+- **Hash Table / Map**: data structure that stores Key–Value Pairs using a hash function for fast operations.  
+- Implementation example: **FNV-1a hash function** for both 32-bit and 64-bit hashes.
