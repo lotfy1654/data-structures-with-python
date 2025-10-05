@@ -146,3 +146,40 @@ Implementation of a `queue using an array` (Python list)
 - **Hash Function**: function that converts a key into a hash code (index in a hash table).  
 - **Hash Table / Map**: data structure that stores Key–Value Pairs using a hash function for fast operations.  
 - Implementation example: **FNV-1a hash function** for both 32-bit and 64-bit hashes
+
+## 14_HashTable_Introduction
+
+- **Hash Table (Hash Map):** A data structure that stores **key–value pairs** and provides **fast insertion, deletion, and lookup** using keys.  
+- **Hash Function:** Converts a **key** into an **array index** where the value is stored.  
+- **Collision:** Occurs when two keys produce the same index — must be handled properly.  
+- **Core Operations:**  
+  1. Convert key to array index.  
+  2. Handle collisions efficiently.  
+
+### Collision Resolution Techniques
+
+| Technique | Type | Main Idea | Example Formula |
+|-----------|------|------------|----------------|
+| **Linear Probing** | Open Addressing | Try the next slot sequentially | `(hash + i) % n` |
+| **Quadratic Probing** | Open Addressing | Jump by squares of i (1, 4, 9, …) | `(hash + pow(i, 2)) % n` |
+| **Double Hashing** | Open Addressing | Use a second hash function for step size | `(hash1 + i * hash2) % n` |
+| **Separate Chaining** | Closed Hashing | Store multiple keys in a list at same index | `table[index].append(key, value)` |
+
+### Key Concepts
+
+- **Open Addressing:** All data stored inside the table; probe for next slot when collision occurs.  
+- **Closed Hashing (Separate Chaining):** Each slot holds a collection (like a linked list) to store multiple items that hash to the same index.  
+- **Goal:** Maintain **O(1)** average time for insertion, deletion, and search operations.  
+
+## 15_Hash_Table_Implementation
+
+Implementation of a `hash table`
+
+Core operations include:
+
+- `hash(key)` → compute the hash index  
+- `collision_handling(key, hash, mode)` → find a valid index when a collision occurs using Linear Probing
+- `set(key, value)` → insert or update a key-value pair  
+- `get(key)` → retrieve the value by key  
+- `remove(key)` → delete a key-value pair  
+- `resize()` → expand the table when full  
