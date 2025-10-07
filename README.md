@@ -183,3 +183,36 @@ Core operations include:
 - `get(key)` → retrieve the value by key  
 - `remove(key)` → delete a key-value pair  
 - `resize()` → expand the table when full  
+
+## 16_Binary_Tree_Introduction
+
+Introduction to the **Binary Tree** — a hierarchical data structure where each node has at most two children: `left` and `right`.
+
+Core concepts include:
+
+- **Structure:** Each node has up to two children (left and right).  
+- **Key Terms:** Root, Node, Edge, Leaf, Height, Depth, and Subtree.  
+- **Traversals:**  
+  - Depth-First → Pre-order, In-order, Post-order  
+  - Breadth-First → Level-order  
+
+Core operations include:
+
+- `insert(node)` → add a new node (breadth-first or BST-based)  
+- `delete(node)` → remove a node and maintain structure  
+- `search(value)` → find a node with a given key or value  
+- `traverse(order)` → visit nodes (pre, in, post, or level order)  
+- `height(node)` → compute height of the tree  
+- `min_value()` / `max_value()` → find minimum or maximum (in BST)  
+
+## 17_Binary_Tree_Implementation
+
+Implementation of a **Binary Tree** using a **Queue (Linked List–based)**.
+
+Includes:
+
+- Linked List–based `Queue` for breadth-first insertion  
+- `BinaryTree` class with:
+  - `insert(data)` → level-order insertion  
+  - `height(node)` → recursive height calculation  
+  - `pre_order`, `in_order`, `post_order` traversals  
