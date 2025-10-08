@@ -2,19 +2,19 @@
 
 This repository contains educational lessons on **fundamental data structures in Python**, focusing on concepts
 
-## 01_Array_Introduction
+## [01_Array_Introduction](./01_Array_Introduction)
 
 - Introduction to Arrays  
 - Types of Arrays (1D, 2D, 3D, Jagged)  
 - Memory management responsibility in C vs Python  
 
-## 02_Array_Operations_Implementation
+## [02_Array_Operations_Implementation](./02_Array_Operations_Implementation)
 
 - Implementation of a function to **resize arrays**  
 - Implementation of a function to **access elements by index**  `getAt`
 - Understanding array operations at a low-level (manual implementation)  
 
-## 03_Linked List_Introduction_Singly_list_implementation
+## [03_Linked_List_Introduction_Singly_list_implementation](./03_Linked_List_Introduction_Singly_list_implementation)
 
 - What is a Linked List and how it differs from arrays  
 - Types of Linked Lists (Singly, Doubly, Circular)  
@@ -26,7 +26,7 @@ This repository contains educational lessons on **fundamental data structures in
   - `insert_before` → insert new node before a given node  
   - `delete_node` → delete a specific node  
 
-## 04_Linked_List_Doubly_list_implementation
+## [04_Linked_List_Doubly_list_implementation](./04_Linked_List_Doubly_list_implementation)
 
 - Introduction to **Doubly Linked List**:  
   A linear data structure where each node stores:  
@@ -45,7 +45,7 @@ This repository contains educational lessons on **fundamental data structures in
 - `delete_node` → Remove a node from the list  
 - `copy` → Create an independent copy of the list  
 
-## 05_Linked_List_VS_Array
+## [05_Linked_List_VS_Array](./05_Linked_List_VS_Array)
 
 ### Arrays
 
@@ -79,7 +79,7 @@ This repository contains educational lessons on **fundamental data structures in
 - **Use Arrays** when you need **fast access & cache efficiency**.  
 - **Use Linked Lists** when you need **frequent dynamic insertions/deletions**.
 
-## 06_Stack_Introduction
+## [06_Stack_Introduction](./06_Stack_Introduction)
 
 A **stack** is a linear data structure that follows **LIFO** (Last In, First Out).  
 The last element added (`pushed`) is the first one removed (`popped`).  
@@ -98,15 +98,15 @@ Core operations include:
 - `isFull()` → check if stack is full (for arrays)  
 - `size()` → current number of elements
 
-## 07_Linked_List_based_Stack
+## [07_Linked_List_based_Stack](./07_Linked_List_based_Stack)
 
 Implementation of a `stack using a linked list`
 
-## 08_Array_based_Stack
+## [08_Array_based_Stack](./08_Array_based_Stack)
 
 Implementation of a `stack using an array` (Python list)
 
-## 09_Queue_Introduction
+## [09_Queue_Introduction](./09_Queue_Introduction)
 
 A **queue** is a linear data structure that follows **FIFO** (First In, First Out).  
 The first element added (`enqueued`) is the first one removed (`dequeued`).  
@@ -125,29 +125,29 @@ Core operations include:
 - `isFull()` → check if queue is full (for arrays)  
 - `size()` → current number of elements
 
-## 10_Linked_List_based_Queue
+## [10_Linked_List_based_Queue](./10_Linked_List_based_Queue)
 
 Implementation of a `queue using a linked list`
 
-## 11_Array_based_Queue
+## [11_Array_based_Queue](./11_Array_based_Queue)
 
 Implementation of a `queue using an array` (Python list)
 
-## 12_KeyValuePair_Dictionary_Implementation
+## [12_KeyValuePair_Dictionary_Implementation](./12_KeyValuePair_Dictionary_Implementation)
 
 - **Key–Value Pair**: a pair of `key` and `value`, where **key is unique** and maps to a value.  
 - **Dictionary / Map**: a collection of Key–Value Pairs.  
 - Usually implemented using **Hash Table** for fast access.  
 - Core operations: `set()`, `get()`, `delete()`, `resize()`, `size()`  
 
-## 13_Hashing_FNV1a_Implementation
+## [13_Hashing_FNV1a_Implementation](./13_Hashing_%20FNV1a_Implementation)
 
 - **Hashing**: process of mapping data to a fixed-size value (hash code) for fast lookup.  
 - **Hash Function**: function that converts a key into a hash code (index in a hash table).  
 - **Hash Table / Map**: data structure that stores Key–Value Pairs using a hash function for fast operations.  
 - Implementation example: **FNV-1a hash function** for both 32-bit and 64-bit hashes
 
-## 14_HashTable_Introduction
+## [14_HashTable_Introduction](./14_HashTable_Introduction)
 
 - **Hash Table (Hash Map):** A data structure that stores **key–value pairs** and provides **fast insertion, deletion, and lookup** using keys.  
 - **Hash Function:** Converts a **key** into an **array index** where the value is stored.  
@@ -171,7 +171,7 @@ Implementation of a `queue using an array` (Python list)
 - **Closed Hashing (Separate Chaining):** Each slot holds a collection (like a linked list) to store multiple items that hash to the same index.  
 - **Goal:** Maintain **O(1)** average time for insertion, deletion, and search operations.  
 
-## 15_Hash_Table_Implementation
+## [15_Hash_Table_Implementation](./15_Hash_Table_Implementation)
 
 Implementation of a `hash table`
 
@@ -184,7 +184,7 @@ Core operations include:
 - `remove(key)` → delete a key-value pair  
 - `resize()` → expand the table when full  
 
-## [16_Binary_Tree_Introduction](./16_Binary_Tree_Introduction/)
+## [16_Binary_Tree_Introduction](./16_Binary_Tree_Introduction)
 
 Introduction to the **Binary Tree** — a hierarchical data structure where each node has at most two children: `left` and `right`.
 
