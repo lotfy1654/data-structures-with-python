@@ -184,7 +184,7 @@ Core operations include:
 - `remove(key)` → delete a key-value pair  
 - `resize()` → expand the table when full  
 
-## 16_Binary_Tree_Introduction
+## [16_Binary_Tree_Introduction](./16_Binary_Tree_Introduction/)
 
 Introduction to the **Binary Tree** — a hierarchical data structure where each node has at most two children: `left` and `right`.
 
@@ -205,7 +205,7 @@ Core operations include:
 - `height(node)` → compute height of the tree  
 - `min_value()` / `max_value()` → find minimum or maximum (in BST)  
 
-## 17_Binary_Tree_Implementation
+## [17_Binary_Tree_Implementation](./17_Binary_Tree_Implementation)
 
 Implementation of a **Binary Tree** using a **Queue (Linked List–based)**.
 
@@ -217,7 +217,7 @@ Includes:
   - `height(node)` → recursive height calculation  
   - `pre_order`, `in_order`, `post_order` traversals  
 
-## 18_Binary_Search_Tree
+## [18_Binary_Search_Tree](./18_Binary_Search_Tree)
 
 A **Binary Search Tree (BST)** is a type of **binary tree** that keeps elements in **sorted order**, allowing efficient **search**, **insertion**, and **deletion**.
 
