@@ -216,3 +216,20 @@ Includes:
   - `insert(data)` → level-order insertion  
   - `height(node)` → recursive height calculation  
   - `pre_order`, `in_order`, `post_order` traversals  
+
+## 18_Binary_Search_Tree
+
+A **Binary Search Tree (BST)** is a type of **binary tree** that keeps elements in **sorted order**, allowing efficient **search**, **insertion**, and **deletion**.
+
+- **Left subtree** → contains values **less than** the node  
+- **Right subtree** → contains values **greater than** the node  
+- Both subtrees are also **Binary Search Trees**
+
+This structure provides an **average-case time complexity of O(log n)** for core operations.
+
+Core operations include:
+
+- `insert(data)` → add a new node while maintaining the BST property  
+- `find(data)` → search for a node by its value  
+- `delete(data)` → remove a node (handle leaf, one-child, or two-child cases)  
+- `balance()` → rebuild the tree into a height-balanced structure  
