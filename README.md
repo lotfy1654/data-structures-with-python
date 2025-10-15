@@ -233,3 +233,44 @@ Core operations include:
 - `find(data)` → search for a node by its value  
 - `delete(data)` → remove a node (handle leaf, one-child, or two-child cases)  
 - `balance()` → rebuild the tree into a height-balanced structure  
+
+## [19_Heap_Tree](./19_Heap_Tree)
+
+A **Heap Tree** is a **complete binary tree** that satisfies the **heap property** — every parent node is ordered with respect to its children.
+
+- In a **Max Heap**, each parent’s value is **greater than or equal** to its children.  
+- In a **Min Heap**, each parent’s value is **less than or equal** to its children.  
+
+This structure allows **fast access** to the highest or lowest value and is widely used in **priority queues** and **heap sort**.
+
+Core operations include:
+
+- `insert(x)` → add a new element and restore heap property  
+- `extract_min()` / `extract_max()` → remove and return the root element  
+- `peek()` → return the root without removing it  
+- `heapify()` → build a heap from an array  
+
+## [20_Priority_Queue](./20_Priority_Queue)
+
+A **Priority Queue** is a **special type of queue** where each element has a **priority**.  
+Unlike a normal queue (FIFO – *First In, First Out*), elements are **served based on their priority** rather than arrival order.
+
+- The element with the **highest** or **lowest** priority is processed **first**.  
+- If two elements share the same priority, the one inserted **earlier** is served first (FIFO rule).
+
+Core operations include:
+
+- `enqueue(priority, data)` → insert a new element based on priority  
+- `dequeue()` → remove and return the highest/lowest priority element  
+- `peek()` → view the next element without removing it  
+- `isEmpty()` → check if the queue is empty  
+
+Priority queues are commonly implemented using a **Binary Heap** for efficient operations:
+
+| Implementation | Insert | Remove | Peek |
+|----------------|---------|---------|------|
+| **Binary Heap** | O(log n) | O(log n) | O(1) |
+
+Two main types:
+- **Min-Priority Queue** → smallest priority value served first  
+- **Max-Priority Queue** → largest priority value served first  
