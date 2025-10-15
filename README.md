@@ -272,5 +272,6 @@ Priority queues are commonly implemented using a **Binary Heap** for efficient o
 | **Binary Heap** | O(log n) | O(log n) | O(1) |
 
 Two main types:
+
 - **Min-Priority Queue** → smallest priority value served first  
 - **Max-Priority Queue** → largest priority value served first  
